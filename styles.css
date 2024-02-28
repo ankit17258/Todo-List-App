@@ -1,0 +1,67 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#App-name{
+    font-size: 50;
+    font-weight: 500;
+}
+#input-field{
+    border-style: none;
+    width: 500px;
+    height: 30px;
+    border: rgb(161, 161, 161) solid 2px;
+    border-radius: 6px;
+    margin-top:10px;
+    padding: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#count{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+#count-container{
+    display: flex;
+    justify-content: space-between;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 500px;
+    margin-bottom: 5px;
+    height: 40px;
+}
+.myCheckbox{
+    border-style: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.items-content{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.delete{
+    height: 30px;
+    cursor: pointer;
+
+}
